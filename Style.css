@@ -1,0 +1,42 @@
+.ram {
+    width: 350px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    border: 2px solid red;
+  }
+  
+  .ram div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+  }
+  
+  .ram div:nth-of-type(1) {
+    flex-shrink: 0;
+  }
+  #q1{
+    
+    padding: 20px;
+    border: 2px solid pink;
+    text-align: justify;
+    height: 34px;
+    overflow-x: visible;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  img{
+    margin-left: 35%;
+    padding: 20px;
+    height: 200px;
+    background-color: hotpink;
+  }
+  #Ram p{
+    background-color: hotpink;
+    float: right;
+    font-style: italic;
+    font-size: 20px;
+     
+  }
